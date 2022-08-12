@@ -1,0 +1,10 @@
+package actions;
+
+import model.Tarefa;
+
+public class InserirTarefa {
+	public static void main(String[] args) {
+		Tarefa tarefa = new Tarefa();
+	}
+
+}

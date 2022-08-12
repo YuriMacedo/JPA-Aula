@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+C:\Users\36124872021.1N\Desktop\Teste de Software\.metadata\.plugins\org.eclipse.jdt.core
+161187014.index
+4271493899.index
+772216179.index
+3825179061.index
+1649161207.index
+3042233730.index
+2449805102.index
+326657941.index
+636533232.index
+951117274.index
+747892111.index
+2057267109.index
+1068668157.index
+2307589020.index
+2369077986.index
+1414843164.index
+3667173964.index
+3060687618.index
+77340521.index
+1692265887.index
+1452871975.index

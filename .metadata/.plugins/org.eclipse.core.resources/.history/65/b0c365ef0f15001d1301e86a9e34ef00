@@ -1,0 +1,19 @@
+package actions;
+
+import java.util.Calendar;
+
+import javax.persistence.Persistence;
+
+import model.Tarefa;
+
+public class InserirTarefa {
+	public static void main(String[] args) {
+		Tarefa tarefa = new Tarefa();
+		tarefa.setDescricao("Estudar spring");
+		tarefa.setFinalizada(true);
+		tarefa.setDataFinalizacao(Calendar.getInstance());
+		
+		Persistence.createEntityManagerFactory("tarefas");
+	}
+
+}

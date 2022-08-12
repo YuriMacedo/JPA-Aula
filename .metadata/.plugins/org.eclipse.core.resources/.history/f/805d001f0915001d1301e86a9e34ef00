@@ -1,0 +1,12 @@
+package model;
+
+import java.util.Calendar;
+
+public class Tarefa {
+	Long id;
+	String descricao;
+	boolean finalizada;
+	Calendar dataFinalizacao;
+	
+
+}
