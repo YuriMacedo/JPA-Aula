@@ -11,8 +11,8 @@ import model.Tarefa;
 public class InserirTarefa {
 	public static void main(String[] args) {
 		Tarefa tarefa = new Tarefa();
-		tarefa.setDescricao("Estudar spring");
-		tarefa.setFinalizada(true);
+		tarefa.setDescricao("Estudar mais spring");
+		tarefa.setFinalizada(false);
 		tarefa.setDataFinalizacao(Calendar.getInstance());
 		
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("tarefas");

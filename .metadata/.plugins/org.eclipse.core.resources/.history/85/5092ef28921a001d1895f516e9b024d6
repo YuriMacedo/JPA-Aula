@@ -1,0 +1,26 @@
+package actions;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import model.Tarefa;
+
+public class RemoveTarefa {
+
+	public static void main(String[] args) {
+		Tarefa tarefa1 = new Tarefa();
+		
+		EntityManagerFactory factory = Persistence.createEntityManagerFactory("tarefa");
+		EntityManager manager = factory.createEntityManager();
+		
+		tarefa1.setId(1L);
+		tarefa1 = manager.find(Tarefa.class, 1L);
+		
+		manager.getTransaction().begin();
+		manager.getTransaction().commit();
+		
+
+	}
+
+}
